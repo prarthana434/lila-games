@@ -1,0 +1,23 @@
+1. Layered Heatmaps with Independent Toggles
+--> This is the core feature. Kill zones, death zones, loot density, movement traffic, and storm deaths are each rendered as a separate heatmap layer you can switch on and off in any combination. 
+--> A designer can isolate exactly the question they're asking — "where are people dying?" vs "where are people looting?" vs "where do both overlap?" — without noise from unrelated data. 
+-->The radial gradient rendering means density reads intuitively at a glance: bright = hot, dark = ignored. This is the feature that turns raw telemetry into a spatial story.
+
+2. Human vs Bot Distinction with Independent Toggles
+--> Every event on the map is colour-coded blue (human) or purple (bot), and each population can be hidden independently. 
+--> This matters enormously for a level designer because bot behaviour and human behaviour reveal completely different things — bots follow patrol logic, humans follow incentives. 
+--> If you're evaluating whether a zone is organically attractive to players, you need to strip out bot noise. One click does that. 
+--> The data showed 99.9% of kills were bot-generated, which is invisible without this filter.
+
+3. Per-Match Timeline Playback
+--> Select any match and use the scrubber or play button to watch the match unfold event by event in chronological order. 
+--> The event feed on the right panel updates in real time showing what just happened. 
+--> This transforms the tool from a static heatmap viewer into something closer to a replay system. 
+--> A designer can watch exactly how a match's combat arc played out — did early loot concentration lead to a mid-game choke? 
+--> Did storm deaths cluster late? Static heatmaps can't answer sequencing questions. This one can.
+
+4. Live World Coordinate Readout
+--> Hover anywhere on the canvas and the bottom-right corner shows the real-world X/Z game coordinates at that point. 
+--> This is the feature that connects the visualization back to the actual game engine. 
+--> When a designer spots a kill cluster or a dead zone, they immediately get the coordinates they need to pull up that location in Unreal/Unity, look at the geometry, and make a change. 
+-->Without this, the tool shows you that something is happening somewhere — with it, you know exactly where to go fix it.
