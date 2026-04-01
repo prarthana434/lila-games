@@ -59,10 +59,3 @@ None. Everything is self-contained in `index.html`.
 ├── ARCHITECTURE.md
 └── INSIGHTS.md
 ```
-
----
-
-## Redeploy
-
-Drag `index.html` onto the Netlify deploy zone at:
-`app.netlify.com/sites/[your-site]/deploys`
