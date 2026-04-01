@@ -2,7 +2,7 @@
 
 A browser-based tool for LILA Games' Level Design team to visually explore how players move, fight, loot, and die across maps using real production telemetry data from LILA BLACK.
 
-**Live URL:** `https://your-site.netlify.app`
+**Live URL:** `https://taupe-baklava-efbb9c.netlify.app/`
 
 ## What It Does
 
